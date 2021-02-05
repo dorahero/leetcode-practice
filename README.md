@@ -1,3 +1,3 @@
 # Contents:
-- [Python](./python/README.md)
-- [SQL](./sql/README.md)
+- [Python](./Algorithms/README.md)
+- [SQL](./Database/README.md)

@@ -1,21 +1,35 @@
-### Auto create task
-```shell
-$ ./auto_create.sh <level> <task name>
-```
 # Contents
 - Easy
-    - [181-Employees-Earning-More-Than-Their-Managers](./Easy/181-Employees-Earning-More-Than-Their-Managers/index.md)
-    - [182-Duplicate-Emails](./Easy/182-Duplicate-Emails/index.md)
-    - [183-Customers-Who-Never-Order](./Easy/183-Customers-Who-Never-Order/index.md)
-    - [196-Delete-Duplicate-Emails](./Easy/196-Delete-Duplicate-Emails/index.md)
-    - [197-Rising-Temperature](./Easy/197-Rising-Temperature/index.md)
+    - [1-Two-Sum](./Easy/1-Two-Sum/README.md)    
+    - [7-Reverse-Integer](./Easy/7-Reverse-Integer/README.md)    
+    - [9-Palindrome-Number](./Easy/9-Palindrome-Number/README.md)    
+    - [13-Roman-to-Integer](./Easy/13-Roman-to-Integer/README.md)    
+    - [14-Longest-Common-Prefix](./Easy/14-Longest-Common-Prefix/README.md)    
+    - [21-Merge-Two-Sorted-Lists](./Easy/21-Merge-Two-Sorted-Lists/README.md)    
+    - [26-Remove-Duplicates-from-Sorted-Array](./Easy/26-Remove-Duplicates-from-Sorted-Array/README.md)
+    - [35-Search-Insert-Position](./Easy/35-Search-Insert-Position/README.md)
 
 - Medium
-    - [177-Nth-highest-Salary](./Medium/177-Nth-highest-Salary/index.md)
-    - [178-Rank-Scores](./Medium/178-Rank-Scores/index.md)
-    - [180-Consecutive-Numbers](./Medium/180-Consecutive-Numbers/index.md)
-    - [184-Department-Highest-Salary](./Medium/184-Department-Highest-Salary/index.md)
-
-- Hard
-    - [185-Department-Top-Three-Salaries](./Hard/185-Department-Top-Three-Salaries/index.md)
+    - [2-Add-Two-Numbers](./Medium/2-Add-Two-Numbers/README.md)
+    - [3-Longest-Substring-Without-Repeating-Characters](./Medium/3-Longest-Substring-Without-Repeating-Characters/README.md)
+    - [5-Longest-Palindromic-Substring](./Medium/5-Longest-Palindromic-Substring/README.md)
+    - [11-Container-With-Most-Water](./Medium/11-Container-With-Most-Water/README.md)
+    - [15-3Sum](./Medium/15-3Sum/README.md)
+    - [16-3Sum-Closest](./Medium/16-3Sum-Closest/README.md)
+    - [17-Letter-Combinations-of-a-Phone-Number](./Medium/17-Letter-Combinations-of-a-Phone-Number/README.md)
+    - [18-4Sum](./Medium/18-4Sum/README.md)
+    - [19-Remove-Nth-Node-From-End-of-List](./Medium/19-Remove-Nth-Node-From-End-of-List/README.md)
+    - [22-Generate-Parentheses](./Medium/22-Generate-Parentheses/README.md)
+    - [24-Swap-Nodes-in-Pairs](./Medium/24-Swap-Nodes-in-Pairs/README.md)
+    - [31-Next-Permutation](./Medium/31-Next-Permutation/README.md)
+    - [33-Search-in-Rotated-Sorted-Array](./Medium/33-Search-in-Rotated-Sorted-Array/README.md)
+    - [34-Find-First-and-Last-Position-of-Element-in-Sorted-Array](./Medium/34-Find-First-and-Last-Position-of-Element-in-Sorted-Array/README.md)
+    - [36-Valid-Sudoku](./Medium/36-Valid-Sudoku/README.md)
+    - [39-Combination-Sum](./Medium/39-Combination-Sum/README.md)
+    - [40-Combination-Sum-II](./Medium/40-Combination-Sum-II/README.md)
+    - [456-132-Pattern](./Medium/456-132-Pattern/README.md)
+    - [462-Minimum-Moves-to-Equal-Array-Elements-II](./Medium/462-Minimum-Moves-to-Equal-Array-Elements-II/README.md)
+    - [464-Can-I-Win](./Medium/464-Can-I-Win/README.md)
+    - [467-Unique-Substrings-in-Wraparound-String](./Medium/467-Unique-Substrings-in-Wraparound-String/README.md)
+    - [542-01-Matrix](./Medium/542-01-Matrix/README.md)
     
