@@ -30,6 +30,7 @@
     - [43-Multiply-Strings](./Medium/43-Multiply-Strings/README.md)  
     - [46-Permutations](./Medium/46-Permutations/README.md)  
     - [47-Permutations-II](./Medium/47-Permutations-II/README.md)  
+    - [48-Rotate-Image](./Medium/48-Rotate-Image/README.md)  
     - [456-132-Pattern](./Medium/456-132-Pattern/README.md)
     - [462-Minimum-Moves-to-Equal-Array-Elements-II](./Medium/462-Minimum-Moves-to-Equal-Array-Elements-II/README.md)
     - [464-Can-I-Win](./Medium/464-Can-I-Win/README.md)

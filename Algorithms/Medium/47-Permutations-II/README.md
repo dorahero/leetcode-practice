@@ -29,7 +29,7 @@ class Solution(object):
 
         def factorial(n):
             r = 1
-            for i in range(1, n+1):
+            for i in range(1, n+1):S
                 r *= i
             return r
 
