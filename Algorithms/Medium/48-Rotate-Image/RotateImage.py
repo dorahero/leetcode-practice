@@ -16,10 +16,10 @@ class Solution(object):
         c = n // 2
         # square : outside to inside
         for i in range(c):
-            # left bottom right side for square
+            # right bottom left side for square
             for x in range(3):
-                # replace : left side switch with top side 
-                # and bottom, and so on
+                # replace : right side switch with top side 
+                # and bottom, and left
                 for y in range(n-2*i-1):
                     if x == 0:
                         _ = matrix[y+i][-1-i]
