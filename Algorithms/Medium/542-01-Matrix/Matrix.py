@@ -1,27 +1,29 @@
-import numpy as np
-from collections import deque
-matrix = [[0,0,0],[0,1,0],[0,0,0]]
-w = len(matrix[0])
-h = len(matrix)
-s = deque()
-limit = w*2
-for i in range(h):
-    for j in range(w):
-        if matrix[i][j] != 0:
-            dist = 0
-            s.append((i, j))
-            while s:
-                (a, b) = s.popleft()
-                if matrix[a][b] == 0:
-                    matrix[i][j] = dist
-                    
-                for x, y in [(1, 0), (-1, 0), (0, 1), (0, -1)]:
-                    xa = x+a
-                    yb = y+b
-                    if 0<=xa<h and 0<=yb<w:
-                        s.append((xa, yb))
-                        dist += 1
-print(matrix)
+class Solution(object):
+    def updateMatrix(self, matrix):
+        if matrix == None or len(matrix) == 0:
+            return matrix
+        w = len(matrix[0])
+        h = len(matrix)
+        s = []
+        for i in range(h):
+            for j in range(w):
+                if matrix[i][j] != 0:
+                    s.append([i, j, 0])
+                    while s:
+                        a, b, dist = s.pop(0)
+                        # if next element is 0, set the dist
+                        if matrix[a][b] == 0:
+                            matrix[i][j] = dist
+                            s = []
+                            break
+                        # move to up, down, right, left
+                        for x, y in [(0,1),(0,-1),(1,0),(-1,0)]:
+                            xa = x+a
+                            yb = y+b
+                            # next element in correct area
+                            if 0<=xa<h and 0<=yb<w:
+                                s.append([xa, yb, dist+1])
+        return matrix
 # w = len(matrix[0])
 # h = len(matrix)
 # limit = w*2
