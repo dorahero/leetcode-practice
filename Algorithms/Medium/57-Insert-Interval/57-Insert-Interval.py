@@ -1,5 +1,6 @@
 class Solution(object):
-    def merge(self, intervals):
+    def insert(self, intervals, newInterval):
+        intervals = intervals + [newInterval]
         if len(intervals) == 1:
             return intervals
         intervals.sort(key=lambda x: x[0])
@@ -23,5 +24,5 @@ class Solution(object):
         return ans
 
 if __name__ == '__main__':
-    res = Solution().merge([[1,3],[2,6],[8,10],[15,18]])
+    res = Solution().insert(intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8])
     print(res)  
