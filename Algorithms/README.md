@@ -33,6 +33,7 @@
     - [48-Rotate-Image](./Medium/48-Rotate-Image/README.md)  
     - [49-Group-Anagrams](./Medium/49-Group-Anagrams/README.md)  
     - [54-Spiral-Matrix](./Medium/54-Spiral-Matrix/README.md)  
+    - [55-Jump-Game](./Medium/55-Jump-Game/README.md)  
     - [456-132-Pattern](./Medium/456-132-Pattern/README.md)
     - [462-Minimum-Moves-to-Equal-Array-Elements-II](./Medium/462-Minimum-Moves-to-Equal-Array-Elements-II/README.md)
     - [464-Can-I-Win](./Medium/464-Can-I-Win/README.md)
