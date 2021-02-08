@@ -28,7 +28,8 @@ class Solution(object):
                 _[tmp].append(s)
         for i in _:
             ans.append(_[i])
-        return ans
+        return ansa
+
 ```
 
 ### Result
