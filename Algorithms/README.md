@@ -39,6 +39,7 @@
     - [59-Spiral-Matrix-II](./Medium/59-Spiral-Matrix-II/README.md)  
     - [62-Unique-Paths](./Medium/62-Unique-Paths/README.md)  
     - [63-Unique-Paths-II](./Medium/63-Unique-Paths-II/README.md)  
+    - [64-Minimum-Path-Sum](./Medium/64-Minimum-Path-Sum/README.md)  
     - [456-132-Pattern](./Medium/456-132-Pattern/README.md)
     - [462-Minimum-Moves-to-Equal-Array-Elements-II](./Medium/462-Minimum-Moves-to-Equal-Array-Elements-II/README.md)
     - [464-Can-I-Win](./Medium/464-Can-I-Win/README.md)
