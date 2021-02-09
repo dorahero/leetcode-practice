@@ -9,4 +9,5 @@
     - [180-Consecutive-Numbers](./Medium/180-Consecutive-Numbers/README.md)
     - [184-Department-Highest-Salary](./Medium/184-Department-Highest-Salary/README.md)
     - [626-Exchange-Seats](./Medium/626-Exchange-Seats/README.md)
+    - [Weather-Observation-Station4](./Medium/Weather-Observation-Station4/README.md)
     
