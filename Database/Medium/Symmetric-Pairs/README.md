@@ -4,8 +4,8 @@
 
 - Write a query to output all such symmetric pairs in ascending order by the value of X. List the rows such that X1 ≤ Y1.
 
-![]('./ex.PNG')  
-![]('./ex2.PNG')
+![](./ex.PNG )
+![](./ex2.PNG )
 ### Solution
 - if f.x == f.y means COUNT(f.x) > 1
 ```sql
