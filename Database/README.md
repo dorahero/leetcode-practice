@@ -14,3 +14,4 @@
     - [Weather-Observation-Station7](./Medium/Weather-Observation-Station7/README.md)
     - [Weather-Observation-Station8](./Medium/Weather-Observation-Station8/README.md)    
     - [Weather-Observation-Station9](./Medium/Weather-Observation-Station9/README.md)  
+    - [Weather-Observation-Station10](./Medium/Weather-Observation-Station10/README.md)  
