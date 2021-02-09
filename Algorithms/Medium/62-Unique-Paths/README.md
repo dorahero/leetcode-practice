@@ -30,9 +30,10 @@ class Solution(object):
             for i in range(1, num+1):
                 res *= i
             return res
-        perimeter = (m-1)+(n-1)
+        def numPermutation(x, y):
+            return factorial(x+y)/(factorial(x)*factorial(y))
         # permutation of down and right
-        ans = factorial(perimeter)/(factorial(m-1)*factorial(n-1))
+        ans = numPermutation(m-1, n-1)
         return ans
 ```
 
