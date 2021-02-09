@@ -4,7 +4,6 @@ The STATION table is described as follows:
 
 ![](./ex.jpg )
 ### Solution
-- Self join
 ```sql
 SELECT COUNT(city)-COUNT(DISTINCT(city)) FROM station;
 ```
