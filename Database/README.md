@@ -18,4 +18,3 @@
     - [Higher-Than-75-Marks](./Medium/Higher-Than-75-Marks/README.md)  
     - [Employee-Salaries](./Medium/Employee-Salaries/README.md)  
     - [Symmetric-Pairs](./Medium/Symmetric-Pairs/README.md)  
-    - [Symmetric-Pairs](./Medium/Symmetric-Pairs/README.md)  
