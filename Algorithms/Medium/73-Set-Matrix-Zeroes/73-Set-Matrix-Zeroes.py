@@ -4,16 +4,18 @@ class Solution(object):
         n = len(matrix[0])
         _ = [0 for x in range(n)]
         # record 0 location
-        tmp = []
+        tmp = set()
         for i in range(m):
+            counter = 0
             for j in range(n):
                 if matrix[i][j] == 0:
-                    tmp.append((i, j))
-        # replace not 0 to 0 on the cross
+                    tmp.add(j)
+                    counter += 1
+            if counter > 0:
+                matrix[i] = _
         for t in tmp:
             for x in range(m):
-                matrix[x][t[1]] = 0
-            matrix[t[0]] = _
+                matrix[x][t] = 0
         return matrix
 
 if __name__ == '__main__':
