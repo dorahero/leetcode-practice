@@ -47,3 +47,4 @@
     - [467-Unique-Substrings-in-Wraparound-String](./Medium/467-Unique-Substrings-in-Wraparound-String/README.md)  
     - [542-01-Matrix](./Medium/542-01-Matrix/README.md)  
     - [74-Search-a-2D-Matrix](./Medium/74-Search-a-2D-Matrix/README.md)  
+    - [75-Sort-Colors](./Medium/75-Sort-Colors/README.md)  
