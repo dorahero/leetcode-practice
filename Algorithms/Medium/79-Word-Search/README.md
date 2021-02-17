@@ -14,7 +14,7 @@ Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "
 Output: true
 ```
 
-### Solution: 
+### Solution 1: 
 ```python
 class Solution(object):
     def exist(self, board, word):
@@ -49,4 +49,32 @@ class Solution(object):
                     if ans[0]:
                         break
         return ans[0]
+```
+### Solution 2: 
+- DFS
+```python
+class Solution(object):
+    def exist(self, board, word):
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if self.dfs(board, word, i, j): return True
+        return False
+                
+    def dfs(self, board, word, i, j):
+        # if index out of range
+        if i <= -1 or i >= len(board) or j <= -1 or j >= len(board[0]): return False
+        # if passed before of not the word
+        if board[i][j] == -1 or board[i][j] != word[0]: return False
+        # if is the last word
+        if len(word) == 1: return True
+        
+        temp, board[i][j] = board[i][j], -1
+        # 4 direction
+        if self.dfs(board, word[1:], i-1, j): return True
+        if self.dfs(board, word[1:], i+1, j): return True
+        if self.dfs(board, word[1:], i, j-1): return True
+        if self.dfs(board, word[1:], i, j+1): return True
+        # all False, let board[i][j] be the original value
+        board[i][j] = temp
+        return False
 ```
