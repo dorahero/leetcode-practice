@@ -53,3 +53,4 @@
     - [79-Word-Search](./Medium/79-Word-Search/README.md)  
     - [81-Search-in-Rotated-Sorted-Array-II](./Medium/81-Search-in-Rotated-Sorted-Array-II/README.md)  
     - [82-Remove-Duplicates-from-Sorted-List-II](./Medium/82-Remove-Duplicates-from-Sorted-List-II/README.md)  
+    - [86-Partition-List](./Medium/86-Partition-List/README.md)  
