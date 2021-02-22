@@ -20,7 +20,12 @@ class Solution(object):
             
         return dum.next
 if __name__ == "__main__":
-    l1 = ListNode(1)
-    for i in range(9):
-        l1.next = ListNode(2)
-    res = Solution().removeNthFromEnd(l1, 2)
+    h = [1,2,3,4,5]
+    head = _ = ListNode(h[0])
+    for i in h[1:]:
+        _.next = ListNode(i)
+        _ = _.next
+    res = Solution().removeNthFromEnd(head, 2)
+    while res:
+        print(res.val)
+        res = res.next
