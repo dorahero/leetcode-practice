@@ -9,6 +9,7 @@
     - [Weather-Observation-Station9](./Easy/Weather-Observation-Station9/README.md)  
     - [Weather-Observation-Station10](./Easy/Weather-Observation-Station10/README.md)  
     - [LIKE](./Easy/LIKE/README.md)  
+    - [UNION](./Easy/UNION/README.md)  
 
 - Medium
     - [177-Nth-highest-Salary](./Medium/177-Nth-Highest-Salary/README.md)
