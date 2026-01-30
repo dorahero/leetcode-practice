@@ -1,0 +1,22 @@
+from typing import List
+
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        
+        i = 0
+        for j in range(1, len(nums)):
+            if nums[j] != nums[i]:
+                i += 1
+                nums[i] = nums[j]
+        
+        return i + 1
+
+
+# Example usage
+solution = Solution()
+nums = [1, 1, 2]
+result = solution.removeDuplicates(nums)
+print(result)  # Output: 2
+print(nums[:result])  # Output: [1, 2]
