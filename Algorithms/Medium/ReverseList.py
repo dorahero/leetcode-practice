@@ -1,4 +1,5 @@
-from linked_list_utils import ListNode, print_linked_list, create_linked_list
+import env
+from Algorithms.function.LinkNodeComponent import ListNode, print_linked_list, create_linked_list
 class Solution:
     def reverseList(self, head):
         prev = None

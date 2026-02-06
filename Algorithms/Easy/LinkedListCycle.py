@@ -1,14 +1,15 @@
-from linked_list_utils import ListNode, print_linked_list, create_linked_list
+import env
 
+from Algorithms.function.LinkNodeComponent import ListNode, print_linked_list, create_linked_list
 class Solution:
     def hasCycle(self, head) -> bool:
-        fast = head
-        slow = head
+        fast, slow = head, head
         
         while fast and fast.next:
             fast = fast.next.next
             slow = slow.next
             
+            # if cycle must in 
             if fast == slow:
                 return True
     
